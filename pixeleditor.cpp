@@ -185,7 +185,7 @@ int main(void)
     //--------------------------------------------------------------------------------------
     const int screenWidth = 1100;
     const int screenHeight = 800;
-
+        const char *fileName = "pxelart.png";
     int fiften = 50; // very hard too understand but its true, fiftin = fiftin = fiftin = 50
 
     InitWindow(screenWidth, screenHeight, "Zakar Engine Pixel Editor");
@@ -212,7 +212,7 @@ int main(void)
             rec(0, 0, fiften,fiften,color,mp,fiften);
         EndDrawing();
         if(IsKeyPressed(KEY_S)){
-            
+             TakeScreenshot(fileName); 
         }
         //----------------------------------------------------------------------------------
     }
