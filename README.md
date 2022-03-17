@@ -3,7 +3,5 @@
 <h5 align="center">Click S for Save As PNG, ESC For Exit, That's all!</h5>
 <h1 align="center">How to run it</h1>
 <h2 align="center">Linux</h2>
-<h5 align="center">for run it on Linux run following commands:</h5>
-<h5 align="center">git clone https://github.com/raysan5/raylib</h5>
-<h5 align="center">cd raylib* && make && make install</h5>
-<h5 align="center">cd .. && git clone https://github.com/archuser555/Pixel-Editor && cd Pixel-Editor && g++ *cpp -lraylib -lGL</h5>
+<h5 align="center">for run it on Linux run one command command:</h5>
+<h5 align="center">git clone https://github.com/raysan5/raylib && cd raylib* && make && make install && cd .. && git clone https://github.com/archuser555/Pixel-Editor && cd Pixel-Editor && g++ *cpp -lraylib -lGL</h5>
